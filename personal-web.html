@@ -17,23 +17,69 @@
 				margin-color: #2D3047;
 				margin-top: 3%;
 				margin-bottom: 3%;
-				padding-left: 3%;
-				padding-right: 3%;
+				padding: 1% 5% 1% 5%;
 				background-color: #2D3047;
-				height: 10%;
+				width: 100%;
+				height: 80px;
 				position: relative;
 				top: 0px;
+				left: -2%;
 				color: #B9D6F2;
+			}
+			.navi-divider img {
+				float: left;
+				position: relative;
+				top: -3%;
+				border: 3px solid white;
+				border-radius: 50%;
+				padding: 3px;
+			}
+			.navi-divider ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 30px 10px;
+				overflow: hidden;
+			}
+			.navi-divider li {
+				display: inline;
+				float: left;
 			}
 			.navi-divider a {
 				font-family: "Avenir", sans-serif;
-				padding: 30px;
+				display: block;
+				width: 150px;
 				text-decoration: none;
 				color: #B9D6F2;
 			}
+			.navi-divider a:visited {
+				color: #9A3DD1;
+			}
 			.navi-divider a:hover {
-				text-decoration: none;
 				color: #FFF;
+			}
+			.quick-facts {
+				background-color: #061A40;
+				float: left;
+				position: relative;
+				top: 9%;
+			}
+			.quick-facts td {
+				font-family: "Avenir", sans-serif;
+				color: #FFF;
+			}
+			.footer-info {
+				background-color: #2D3047;
+				position: absolute;
+				width: 98%;
+				left: auto;
+				right: auto;
+				bottom: 2%
+			}
+			.footer-info p {
+				font-family: "Optima", sans-serif;
+				font-size: 0.5em;
+				text-align: center;
+				color: #B9D6F2;
 			}
 		</style>
 	</head>
@@ -42,7 +88,36 @@
 			<h1>Erik Butcher</h1>
 		</div>
 		<div class="navi-divider">
-			<a href="#nonexistag">GOES NOWHERE</a>
+			<img src="images/empty-placeholder.png">
+			<ul>
+				<li><a href="#nonexistag">GOES NOWHERE</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="quick-facts">
+			<table>
+				<tr>
+					<td>AGE</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td>5/24</td>
+				</tr>
+				<tr>
+					<td>BORN</td>
+					<td>CA, US</td>
+				</tr>
+				<tr>
+					<td>LOC</td>
+					<td>CO, US</td>
+				</tr>
+			</table>
+		</div>
+		<div class="footer-info">
+			<p>
+				Last updated 05/12/2015.
+			</p>
 		</div>
 	</body>
 </html>
